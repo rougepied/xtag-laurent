@@ -1,0 +1,14 @@
+{
+  "whiteSpace": {
+    "before": {
+    "Property": 1
+    }
+  },
+  "indent": {
+    "value": "  "
+  },
+  "plugins": [
+    "esformatter-braces",
+    "esformatter-collapse-objects"
+  ]
+}

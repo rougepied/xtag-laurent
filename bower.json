@@ -1,0 +1,32 @@
+{
+  "name": "saint-laurent",
+  "version": "0.0.0",
+  "authors": [
+    "rougepied <arnaud@rougepied.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "moment": "~2.10.6",
+    "webcomponentsjs": "~0.7.15",
+    "fetch": "~0.10.1",
+    "x-tag-core": "~1.5.0"
+  },
+  "overrides": {
+    "moment": {
+      "main": [
+        "moment.js",
+        "locale/fr.js"
+      ]
+	},
+	"x-tag-core": {
+	  "main": "dist/x-tag-no-polyfills.js"
+	}
+  }
+}

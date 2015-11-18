@@ -1,0 +1,4 @@
+key_git_ignored.go
+bower_components/*
+node_modules/*
+public/*
